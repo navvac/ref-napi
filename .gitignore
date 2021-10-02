@@ -19,3 +19,12 @@ build
 node-addon-api
 
 prebuilds/
+
+# yarn 2
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
